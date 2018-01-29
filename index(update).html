@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Pelatihan TIK Kab. Banyumas</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+
+<body id="page-top" style="height: 100%">
+<!--navbar-->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <a class="navbar-brand page-scroll" style="padding-top: 0"><img src="image/logo2.png" style="height:110px; alt="logo"></a>
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+  </div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a class="page-scroll" href="index.html">Beranda</a>
+      </li>
+      <li>
+        <a class="page-scroll" href="PageBerita.php">Berita</a>
+      </li>
+      <li>
+        <a class="page-scroll" href="">Jadwal</a>
+      </li>
+      <li>
+        <a class="dropdown-toggle" data-toggle="dropdown">Login<span class="caret"></span></a>
+        <ul class="dropdown-menu bg-primary" style="padding: 20px 10px 5px 10px; width:300px;">
+          <form>
+            <fieldset id="inputs">
+              <h4>Username</h4>
+              <input style="color: #222" id="username" type="username" name="username" placeholder="Your username" required>
+              <h4>Password</h4>   
+              <input style="color: #222" id="password" type="password" name="Password" placeholder="Password" required>
+            </fieldset>
+            <fieldset id="actions">
+            <a id="login" href="" class="btn btn-dark btn-round">Log in</a>
+            <label><input type="checkbox" checked="checked"> Keep me signed in</label>
+            <label><h5>Belum punya akun?
+            <a id="signup" href="sign up.php" class="text-center" style="color: white;"><strong> daftar disini</strong></a></h5></label>
+            </fieldset>
+          </form>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!-- Section Intro Slider-->
+<div id="carousel" class="carousel intro">
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<!-- First slide -->
+		<div class="item active">
+			<img src="image/Bms.jpg" class="item active" style="width:100%;height:70px;" alt="foto">
+			<div class="carousel-caption" >
+				<h1 style="font-family: Dosis" data-animation="animated bounceInDown" >
+				Pelatihan TIK </h1>
+				<h2 data-animation="animated bounceInUp">
+				Kabupaten Banyumas </h2>
+			</div>
+		</div>
+		<!-- Second slide -->
+		<div class="item">
+			<img src="image/Banyumas.jpg" class="item" style="width:100%;height:70px;" alt="foto">
+			<div class="carousel-caption" >
+				<h1 style="font-family: Dosis" data-animation="animated bounceInDown">
+				Pelatihan TIK </h2>
+				<h2 data-animation="animated bounceInUp">
+				Kabupaten Banyumas </h1>
+			</div>
+		</div>
+		<!-- Third slide -->
+		<div class="item">
+			<img src="image/Bms.jpg" class="item" style="width:100%;height:70px;" alt="foto">
+			<div class="carousel-caption" >
+				<h1 style="font-family: Dosis" data-animation="animated bounceInDown">
+				Pelatihan TIK </h2>
+				<h2 data-animation="animated bounceInUp">
+				Kabupaten Banyumas </h1>
+			</div>
+		</div>
+	</div>
+	<!-- /.carousel-inner -->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<!-- Berita Baru -->
+<section id="beritaBaru">
+<div class="col-lg-10 col-lg-offset-1 text-center">
+		<h2 class="section-heading"><b>BERITA TERBARU</b></h2>
+		<hr>
+</div>
+<!--card berita 1 -->
+<div class="col-md-4 bg-dark no-padding teambox">
+	<div>
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+		</div>
+          <div style="color: white">
+            	<h2><a href="berita.php"> judul berita 1 </a></h2>
+          		<div class="card-body">
+              		<p class="card-text">isi berita 1</p>
+          		</div>
+            	<div class="card-footer" style="color: black">
+              		<a href="berita.php" class="btn btn-primary">read More</a>
+            	</div>
+          </div>
+    </div>
+</div>
+<!--card berita 2 -->
+<div class="col-md-4 bg-dark no-padding teambox">
+	<div>
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+		</div>
+          <div style="color: white">
+            	<h2><a href="berita.php"> judul berita 2 </a></h2>
+          		<div class="card-body">
+              		<p class="card-text">isi berita 1</p>
+          		</div>
+            	<div class="card-footer" style="color: black">
+              		<a href="berita.php" class="btn btn-primary">read More</a>
+            	</div>
+          </div>
+    </div>
+</div>
+<!--card berita 3 -->
+<div class="col-md-4 bg-dark no-padding teambox">
+	<div>
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+		</div>
+          <div style="color: white">
+            	<h2><a href="berita.php"> judul berita 3 </a></h2>
+          		<div class="card-body">
+              		<p class="card-text">isi berita 1</p>
+          		</div>
+            	<div class="card-footer" style="color: black">
+              		<a href="berita.php" class="btn btn-primary">read More</a>
+            	</div>
+          </div>
+    </div>
+</div>
+</section>
+
+<!--berita lama-->
+<section id="beritaLama">
+<div class="container" >
+	<div class="col-md-8 col-md-offset-2 text-center" style="padding-top: 2cm">
+		<h2 class="section-heading"><b>BERITA PELATIHAN TIK</b></h2>
+		<hr>
+	</div>
+	<div class="row">
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+			<h4 class="card-header" href="berita.php">JUDUL BERITA2.1</h4>
+			</div>
+         	<div class="card-body">
+            	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+        	<div class="card-footer">
+            	<a href="berita.php" class="btn btn-primary">READ More</a>
+        	</div>
+    	</div>
+	</div>
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+			<h4 class="card-header" href="berita.php">JUDUL BERITA 2.2</h4>
+			</div>
+    	        <div class="card-body">
+        	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            	</div>
+            	<div class="card-footer">
+              		<a href="berita.php" class="btn btn-primary">READ More</a>
+            	</div>
+        </div>
+    </div>
+        <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <div class="team-thumb overlay-image view-overlay">
+			<img src="image/Banyumas.jpg" style="width:600px;height:300px;" alt="berita 1" class="img-responsive">
+			<h4 class="card-header" href="berita.php">JUDUL BERITA 2.3</h4>
+			</div>
+    	        <div class="card-body">
+        	      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            	</div>
+            	<div class="card-footer">
+              		<a href="berita.php" class="btn btn-primary">READ More</a>
+            	</div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Section JadwalIcon
+================================================== -->
+<section id="JadwalIcon">
+<div class="container" >
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<img src="image/kalender.png" class="item" style="width:150px; height:150px;" alt="icon">
+	</div>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<h3>Jadwal Pelatihan TIK</h3>
+		<p> Kabupaten Banyumas </p>
+		<hr>
+	</div>
+</div>
+</section>
+
+<!-- Section Footer
+================================================== -->
+<footer class="footer-section bg-dark">
+<div class="container" style="width:100%;height:110px;">
+	<div class="col-md-12 text-center">
+		<h3>Pelatihan TIK Kabupaten Banyumas</h3>
+		<p>
+			&copy; 2018 Dinas Komunikasi & Informasi Kabupaten Banyumas
+		</p>
+	</div>
+</div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/countto.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
